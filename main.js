@@ -2,6 +2,7 @@ const glados = async () => {
   const cookie = process.env.GLADOS
   if (!cookie) return
   try {
+    
     const headers = {
       'cookie': cookie,
       'referer': 'https://glados.rocks/console/checkin',
